@@ -25,7 +25,7 @@ This project is a content-based recommendation system that takes a short text de
    - Run all the cells and install dependencies if needed.
      
 4. **Run the Recommender App (.py file)**  
-   - Open cmd navigate to the folder containing the `mrs_sl.py` file in your desktop (make sure all the files are in the same folder):
+   - Open cmd and navigate to the folder containing the `mrs_sl.py` file in your desktop (make sure all the files are in the same folder):
      ```bash
      cd "Your folder path"
      streamlit run mrs_sl.py
