@@ -7,10 +7,7 @@
 1. **Clone the Repository**  
    - Clone or download the repository.
 
-2. **Navigate to the Folder**  
-   - Open your terminal and navigate to the repository folder containing the `mrs_sl.py` file.
-
-3. **Install Dependencies**  
+2. **Install Dependencies**  
    - Make sure you have [Streamlit](https://docs.streamlit.io) and other necessary libraries installed:
      ```bash
      pip install streamlit pandas scikit-learn nltk
@@ -19,12 +16,12 @@
      ```bash
      python -m nltk.downloader stopwords
      ```
-4. **Run .ipynb file**
+3. **Run .ipynb file**
    - Open the file in google colab and upload the dataset.
    - Run all the cells and install dependencies if needed.
      
-5. **Run the Recommender App**  
-   - Open cmd in your desktop (make sure all the files are in the same folder):
+4. **Run the Recommender App (.py file)**  
+   - Open cmd navigate to the folder containing the `mrs_sl.py` file in your desktop (make sure all the files are in the same folder):
      ```bash
      cd "Your folder path"
      streamlit run mrs_sl.py
