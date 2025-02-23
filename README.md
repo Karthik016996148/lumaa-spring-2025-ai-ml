@@ -19,11 +19,14 @@
      ```bash
      python -m nltk.downloader stopwords
      ```
-
-4. **Run the Recommender App**  
-   - Start the Streamlit app:
+4. **Run .ipynb file**
+   - Open the file in google colab and upload the dataset.
+   - Run all the cells and install dependencies if needed.
+     
+5. **Run the Recommender App**  
+   - Open cmd in your desktop (make sure all the files are in the same folder):
      ```bash
-     cd "Your file path"
+     cd "Your folder path"
      streamlit run mrs_sl.py
      ```
    - A local web page will open in your browser (by default at `http://localhost:8501`).
