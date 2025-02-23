@@ -1,6 +1,10 @@
 # Simple Content-Based Recommender System
 
-**Screen Recording**: [Brief demo video link](https://youtu.be/3nPj4yEcpBE?feature=shared)
+## Overview
+
+This project is a content-based recommendation system that takes a short text description of a user’s preferences and returns a list of the most similar items from the IMDB Top 1000 dataset. It works by transforming both the user’s query and each item’s plot summary into TF-IDF vectors, then computing cosine similarity to find the closest matches. The top 3–5 recommendations are returned, along with their similarity scores to give a sense of relevance.
+
+**Demo Video**: [Brief demo video link](https://youtu.be/3nPj4yEcpBE?feature=shared)
 
 ## How to Run the Code
 
@@ -16,7 +20,7 @@
      ```bash
      python -m nltk.downloader stopwords
      ```
-3. **Run .ipynb file**
+3. **Run the .ipynb file**
    - Open the file in google colab and upload the dataset.
    - Run all the cells and install dependencies if needed.
      
